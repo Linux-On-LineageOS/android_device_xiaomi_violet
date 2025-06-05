@@ -74,3 +74,4 @@ PRODUCT_SOONG_NAMESPACES += \
 # Wifi
 PRODUCT_PACKAGES += \
     VioletWifiOverlay
+$(call inherit-product, vendor/lindroid/lindroid.mk)
